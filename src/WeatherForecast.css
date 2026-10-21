@@ -1,0 +1,36 @@
+.WeatherForecast {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  padding-top: 24px;
+  border-top: 1px solid #eeeaf6;
+}
+
+.WeatherForecastDay {
+  text-align: center;
+}
+
+.forecast-day {
+  color: #6e6a7c;
+  font-size: 15px;
+}
+
+.forecast-icon {
+  width: 56px;
+  height: 56px;
+}
+
+.forecast-temperatures {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  font-size: 15px;
+}
+
+.forecast-temperatures .max {
+  font-weight: 600;
+}
+
+.forecast-temperatures .min {
+  color: #6e6a7c;
+}
