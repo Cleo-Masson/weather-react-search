@@ -3,6 +3,15 @@
 A weather app built with React and Vite, using the SheCodes Weather API.
 Coded by Cleo Masson.
 
+## API key
+
+The SheCodes Weather API key is not stored in the code. Add it as an environment variable called `VITE_SHECODES_API_KEY`:
+
+- On your computer: create a file called `.env.local` in the project folder containing `VITE_SHECODES_API_KEY=your-key`
+- On Netlify: Site configuration > Environment variables > Add a variable, then redeploy
+
+You can find your key on the SheCodes Weather API page.
+
 ## Run it on your computer
 
 ```
