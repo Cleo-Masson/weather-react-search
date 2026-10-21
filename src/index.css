@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f4f1fb;
+  color: #1f1b2e;
+  min-height: 100vh;
+}
+
+a {
+  color: #885df1;
+}
+
+.container {
+  max-width: 640px;
+  margin: 48px auto;
+  padding: 0 16px;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: #6e6a7c;
+  margin-top: 24px;
+  line-height: 1.6;
+}
